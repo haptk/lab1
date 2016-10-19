@@ -1,0 +1,36 @@
+//import java.util.regex;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+class demo
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Welcome！");
+		check();
+	}
+	
+	public static void check()
+	{
+		String str = "x+1*w";
+		
+		Pattern p1 = Pattern.compile(str);
+		String rule1 = "[0-9a-z\\*\\+]{0,}";
+		//String rule2 = "[^\\+\\*]";
+		//String rule3 = "[\\+\\*$]";
+		//String rule4 = "[\\+\\*]{2,}";
+		
+		
+		Matcher m1 = p1.matcher("rule1");
+		boolean flag1 = m1.matches();
+		//boolean flag1 = str.matches(rule1);
+		//boolean flag2 = str.matches(partern2);
+		//boolean flag3 = str.matches(partern3);
+		//boolean flag4 = str.find(rule4);
+		//boolean flag = flag1 & !flag2 & !flag3 & !flag4;
+		Pattern p = Pattern.compile("a*b");
+		Matcher m = p.matcher("a*b");
+		boolean b = m.matches();
+		System.out.println(b);
+		//System.out.println(flag4);
+	}
+}

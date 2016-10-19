@@ -1,0 +1,18 @@
+class demo
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Welcome！");
+	}
+	
+	public static void check()
+	{
+		String str = "aa";
+		String reg = "[a-z][a-z]";
+		boolean flag = str.matches(reg);
+		if(flag)
+			System.out.println(str);
+		else
+			System.out.println("不合法的多项式");
+	}
+}
