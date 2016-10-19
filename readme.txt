@@ -1,3 +1,7 @@
 This is lab1.
 It is about polynomial computing.
-This is a modification on B1 branch.
+<<<<<<< HEAD
+This is a modification on a new branch.
+=======
+This is a modification on a new branch .
+>>>>>>> C4

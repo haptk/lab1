@@ -1,1 +1,5 @@
-This is a demo on B1 branch.
+<<<<<<< HEAD
+This is a demo on a new branch.
+=======
+This is a demo on a new branch.
+>>>>>>> C4
