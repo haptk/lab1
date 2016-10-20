@@ -422,6 +422,7 @@ public class lab1f{
 }
 
 class Node{
+	//changes on B2 branch
 	public boolean isNum;
 	private int num;
 	private String variable;
