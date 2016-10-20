@@ -422,6 +422,8 @@ public class lab1f{
 }
 
 class Node{
+	//this is the core data structure of the program
+	//Hello World!!!
 	public boolean isNum;
 	private int num;
 	private String variable;
