@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a demo on 1132910204 branch.
 =======
 <<<<<<< HEAD
@@ -11,3 +12,7 @@ This is a demo on a new branch.
 =======
 This is a demo on branch B2.
 >>>>>>> B2
+=======
+This is a demo.
+This is the second line of the demo.
+>>>>>>> dev
