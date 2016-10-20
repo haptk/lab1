@@ -422,6 +422,7 @@ public class lab1f{
 }
 
 class Node{
+	//Happy programming!
 	public boolean isNum;
 	private int num;
 	private String variable;
