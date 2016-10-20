@@ -422,9 +422,11 @@ public class lab1f{
 }
 
 class Node{
+<<<<<<< HEAD
 	//Happy programming!
 	//this is the core data structure of the program
 	//Hello World!!!
+	//merge B2 and 1140310720
 	public boolean isNum;
 	private int num;
 	private String variable;
